@@ -1,0 +1,249 @@
+.pleb_listing_auction {
+    border: 1.5px solid #646464;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    max-width: 35%;
+    display: inline-flex;
+    margin-right: 25px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.pleb_listing_auction_image {
+    min-width: 95%;
+    padding: 5px;
+}
+
+.pleb_listing_auction_image img {
+    width: 100%;
+}
+
+.pleb_listing_auction_title {
+    padding: 4px;
+}
+
+.pleb_listing_auction_description {
+    font-size: 13px;
+    padding: 6px;
+    padding-top: 0;
+}
+
+/* Buy Now items */
+.pleb_item_superdiv {
+    border: 1.5px solid #646464;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-right: 2em !important;
+    margin-left: 1em !important;
+    align-content: center;
+    flex-direction: column;
+}
+
+.pleb_buynow_item_title {
+    margin: initial !important;
+    padding: 0.6em;
+    text-align: center;
+}
+
+.pleb_buynow_item_slideshow {
+    position: relative;
+    height: 80vh;
+}
+
+.pleb_buynow_item_slideshow img {
+    position: absolute;
+    z-index: 8;
+    opacity: 0.0;
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+}
+
+.pleb_buynow_item_slideshow img.active {
+    z-index: 10;
+    opacity: 1.0;
+}
+
+.pleb_buynow_item_slideshow img.last-active {
+    z-index: 9;
+}
+
+.active {
+    z-index: 99;
+}
+
+.pleb_buynow_item_description {
+    font-size: 22px;
+    padding: 15px;
+    white-space: pre-line;
+}
+
+.pleb_buynow_item_price {
+    font-size: 19px;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.pleb_buynow_item_shipping {
+    font-size: 19px;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.pleb_buynow_item_quantity {
+    font-size: 18px;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.btn-buynow {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Login */
+.qrcodeImageDiv {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lnurlValue {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loadingModalLoadingText {
+    font-size: 27px;
+    margin-top: 40px;
+}
+
+#loadingModal-body {
+    margin-top: 30px;
+}
+
+#loadingModal .spinner-border {
+    width: 5rem;
+    height: 5rem;
+}
+
+.spinnerWaitingPayment {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.spinnerWaitingPaymentText {
+    margin-left: 15px;
+}
+
+#gpModal img {
+    display: initial;
+}
+
+.spinner-border {
+    box-sizing: initial;
+    animation-duration: 1.6s !important;
+}
+
+.modal-title {
+    margin-top: 0;
+}
+
+#shipping_widget {
+    margin-top: 1.5em;
+    margin-bottom: -0.5em;
+}
+
+#shipping_widget_chooser_center {
+    border: 1.5px solid #646464;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#shipping_widget_result {
+    margin-top: 1.5em;
+}
+
+.pleb_bids_info {
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+.pleb_bids_info p {
+    margin-bottom: 0;
+}
+.auctionBidInfo {
+    margin-top: 35px;
+    margin-bottom: 30px !important;
+}
+.auctionBidInfo td {
+    vertical-align: middle;
+}
+.bidNowWidget {
+    margin-bottom: 35px;
+}
+.fiatDestination {
+    font-size: 12px;
+}
+
+/*   Auctions Countdown   */
+.plebeian_auctions_countdown {
+    display: inline-grid;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.countdown-wrapper {
+    display: flex;
+    gap: 3%;
+    min-width: 255px;
+    width: 75%;
+    min-height: 90px;
+    height: calc(25vw);
+    justify-content: space-between;
+}
+.countdown-wrapper .finished {
+    font-size: 22px;
+    font-weight: bolder;
+    height: 1em;
+}
+@media screen and (min-width: 1024px) {
+.countdown-wrapper {
+    width: 70px;
+    height: 70px;
+}
+.item span {
+    font-size: 4rem;
+}
+
+.item .number span {
+    font-size: 12.8rem;
+}
+}
+.item {
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 3%;
+width: 22%;
+}
+
+.item span {
+color: #000;
+font-size: 0.6vw;
+}
+
+.item .number {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #e9e6e6;
+border-radius: 5%;
+height: 75%;
+}
+
+.item .number span {
+font-size: 1vw;
+line-height: 4.7rem;
+font-weight: bold;
+}
